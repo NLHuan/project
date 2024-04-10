@@ -2,68 +2,6 @@
 require_once 'helpers/Helper.php';
 ?>
 
-<!-- Spinner Start -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-border text-primary" role="status"></div>
-</div>
-<!-- Spinner End -->
-
-
-<!-- Navbar Start -->
-<div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-    <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
-        <div class="col-lg-6 px-5 text-start">
-            <small><i class="fa fa-map-marker-alt me-2"></i>102, Trường Chinh, Phương Mai, Đống Đa, Hà Nội</small>
-            <small class="ms-4"><i class="fa fa-envelope me-2"></i>musclefood@gmail.com</small>
-        </div>
-        <div class="col-lg-6 px-5 text-end">
-            <small>Liên hệ:</small>
-            <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
-            <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-            <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
-        </div>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="fw-bold text-dark m-0" style="font-family: 'Arial', sans-serif;">Muscle<span class="text-secondary">Food</span></h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Trang chủ</a>
-                <a href="about.html" class="nav-item nav-link">Giới thiệu</a>
-                <a href="product.html" class="nav-item nav-link active">Sản phẩm</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trang</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog</a>
-                        <a href="feature.html" class="dropdown-item">Cam kết chính hãng</a>
-                        <a href="testimonial.html" class="dropdown-item">Phản hồi</a>
-                        
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
-            </div>
-            <div class="d-none d-lg-flex ms-2">
-                <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
-                    <small class="fa fa-search text-body"></small>
-                </a>
-                <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
-                    <small class="fa fa-user text-body"></small>
-                </a>
-                <a class="btn-sm-square bg-white rounded-circle ms-3" href="cart.html">
-                    <small class="fa fa-shopping-bag text-body"></small>
-                </a>
-            </div>
-        </div>
-    </nav>
-</div>
-<!-- Navbar End -->
-
 
 <!-- Page Header Start -->
 <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
@@ -111,7 +49,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-1.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -132,7 +70,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-2.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -153,7 +91,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-3.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -174,7 +112,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-4.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -195,7 +133,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-5.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -216,7 +154,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-6.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -237,7 +175,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-7.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -258,7 +196,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-8.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -286,7 +224,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-1.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -307,7 +245,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-2.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -328,7 +266,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-3.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -349,7 +287,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-4.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -370,7 +308,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-5.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -391,7 +329,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-6.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -412,7 +350,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-7.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -433,7 +371,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-8.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -461,7 +399,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-1.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -482,7 +420,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-2.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -503,7 +441,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-3.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -524,7 +462,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-4.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -545,7 +483,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-5.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -566,7 +504,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-6.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -587,7 +525,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-7.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -608,7 +546,7 @@ require_once 'helpers/Helper.php';
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/product-8.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
@@ -666,7 +604,7 @@ require_once 'helpers/Helper.php';
                 <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                 <p class="mb-4">Sản phẩm thực phẩm hỗ trợ tập thể hình của Muscle Food không chỉ cung cấp năng lượng mà còn giúp họ phục hồi nhanh chóng sau mỗi buổi tập. Tôi cảm thấy có thể tập luyện cứng rắn hơn mà không cảm thấy mệt mỏi sau đó.</p>
                 <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" alt="">
+                    <img class="flex-shrink-0 rounded-circle" src="assets/img/testimonial-1.jpg" alt="">
                     <div class="ms-3">
                         <h5 class="mb-1">Trần Ngọc Ánh</h5>
                         <span>Kỹ sư phần mềm</span>
@@ -677,7 +615,7 @@ require_once 'helpers/Helper.php';
                 <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                 <p class="mb-4">Tôi cảm nhận thấy sự khác biệt rõ rệt sau khi sử dụng sản phẩm này trong quá trình tập luyện của mình. Không chỉ giúp tôi cảm thấy tự tin hơn trong việc vượt qua các mục tiêu tập luyện, mà còn giúp tôi đạt được kết quả nhanh hơn.</p>
                 <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" alt="">
+                    <img class="flex-shrink-0 rounded-circle" src="assets/img/testimonial-2.jpg" alt="">
                     <div class="ms-3">
                         <h5 class="mb-1">Nguyễn Văn Toàn</h5>
                         <span>Dược sĩ</span>
@@ -688,7 +626,7 @@ require_once 'helpers/Helper.php';
                 <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                 <p class="mb-4">Sản phẩm này không chỉ là một loại thực phẩm bổ sung, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình tập luyện của tôi.Nó khích lệ tôi, sản phẩm của Muscle Food không chỉ đóng vai trò là một sản phẩm, mà còn trở thành một phần không thể thiếu của cuộc sống và sức khỏe của tôi.</p>
                 <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" alt="">
+                    <img class="flex-shrink-0 rounded-circle" src="assets/img/testimonial-3.jpg" alt="">
                     <div class="ms-3">
                         <h5 class="mb-1">Trần Văn Trung</h5>
                         <span>Chuyên viên kiểm thử</span>
@@ -699,7 +637,7 @@ require_once 'helpers/Helper.php';
                 <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
                 <p class="mb-4">Sản phẩm này cung cấp cho tôi một loạt các dưỡng chất quan trọng giúp tăng cường cả về cơ bắp và sức khỏe tổng thể. Tôi thực sự cảm thấy thay đổi tích cực từ bên trong ra ngoài, và đó là một cảm giác không thể diễn tả.</p>
                 <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" alt="">
+                    <img class="flex-shrink-0 rounded-circle" src="assets/img/testimonial-4.jpg" alt="">
                     <div class="ms-3">
                         <h5 class="mb-1">Nguyễn Khánh Duy</h5>
                         <span>Đầu bếp</span>
@@ -760,12 +698,12 @@ require_once 'helpers/Helper.php';
 
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/lib/wow/wow.min.js"></script>
 <script src="assets/lib/easing/easing.min.js"></script>
 <script src="assets/lib/waypoints/waypoints.min.js"></script>
-<script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="assets/lib/owlcarousel/owl.carousel.min.js"></script> -->
 
 <!-- Template Javascript -->
-<script src="assets/js/main.js"></script>
+<!-- <script src="assets/js/main.js"></script> -->

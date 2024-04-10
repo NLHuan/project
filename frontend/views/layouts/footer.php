@@ -1,4 +1,4 @@
-<footer class="footer-section">
+<!-- <footer class="footer-section">
     <div class="container relative">
 
  
@@ -36,4 +36,4 @@
 
         </div>
     </div>
-</footer>
+</footer> -->
