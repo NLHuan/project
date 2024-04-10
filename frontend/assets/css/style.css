@@ -382,3 +382,9 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+/* add */
+.timeline-items {
+    margin-top: 150px;
+}

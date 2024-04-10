@@ -36,15 +36,31 @@
                     <a href="index.php?controller=product&action=index" class="nav-item nav-link">Liên hệ</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                    <!-- <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
                         <small class="fa fa-search text-body"></small>
                     </a>
                     <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
                         <small class="fa fa-user text-body"></small>
-                    </a>
-                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="cart.html">
-                        <small class="fa fa-shopping-bag text-body"></small>
-                    </a>
+                    </a> -->
+                    <!-- <a class="btn-sm-square bg-white rounded-circle ms-3" href="index.php?controller=cart&action=index"> -->
+                        <!-- <small class="fa fa-shopping-bag text-body"></small> -->
+                        <div class="cart">
+                            <a href="index.php?controller=cart&action=index" class="cart-number">
+                                <small class="fa fa-shopping-bag text-body"></small>
+                                <?php
+                                $cart_total = 0;
+                                if (isset($_SESSION['cart'])) {
+                                    foreach ($_SESSION['cart'] AS $cart) {
+                                        $cart_total += $cart['quantity'];
+                                    }
+                                }
+                                ?>
+                                <span class="cart-amount">
+                                    <?php echo $cart_total; ?>
+                                </span>
+                            </a>
+                        </div>
+                    <!-- </a> -->
                 </div>
             </div>
         </nav>

@@ -47,32 +47,48 @@ require_once 'helpers/Helper.php';
             <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row g-4">
                 <?php
-                    foreach ($productService as $key => $productService) :
+                    foreach ($productService as $key => $product) :
                         // echo '<pre>';
-                        // print_r($productService);
+                        // print_r($product);
                         // echo '<pre>';
                     ?>
+                            <form action="" class="add_cart" method="post">
+
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="../admin/assets/uploads/<?php echo $productService['avatar']?>" alt="">
+                                <img class="img-fluid w-100" src="../admin/assets/uploads/<?php echo $product['avatar']?>" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Mới</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href=""><?php echo $productService['title']?></a>
-                                <span class="text-primary me-1"><?php echo $productService['discount']?>đ</span>
-                                <span class="text-body text-decoration-line-through"><?php echo $productService['price']?>đ</span>
+                                <a class="d-block h5 mb-2" href=""><?php echo $product['title']?></a>
+                                <span class="text-primary me-1"><?php echo $product['discount']?>đ</span>
+                                <span class="text-body text-decoration-line-through"><?php echo $product['price']?>đ</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
                                     <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>Chi tiết</a>
                                 </small>
-                                <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Thêm vào giỏ</a>
-                                </small>
+                                <!-- <small class="w-50 text-center py-2">
+                                    <a class="text-body" href="index.php?controller=cart&action=index">
+                                        <div data-id="<?php echo $product['id']; ?>" class="add-to-cart">
+                                        <i class="fa fa-shopping-bag text-primary me-2"></i>
+                                            Thêm vào giỏ
+                                        </div>
+                                    </a>
+                                </small> -->
+                                <div class="order">
+                                    <a href="index.php?controller=cart&action=index">
+                                        <div data-id="<?php echo $product['id']; ?>" class="add-to-cart">
+                                            <i class="fa fa-cart-plus"></i> Đặt hàng
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    </form>
+
                     <?php endforeach; ?>
                     <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
                         <a class="btn btn-primary rounded-pill py-3 px-5" href="">Xem thêm sản phẩm</a>
@@ -125,8 +141,20 @@ require_once 'helpers/Helper.php';
                                     <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>Chi tiết</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Thêm vào giỏ</a>
+                                    <a class="text-body" href="index.php?controller=cart&action=index">
+                                        <div data-id="<?php echo $product['id']; ?>" class="add-to-cart">
+                                        <i class="fa fa-shopping-bag text-primary me-2"></i>
+                                            Thêm vào giỏ
+                                        </div>
+                                    </a>
                                 </small>
+                                <!-- <div class="order">
+                                    <a href="index.php?controller=cart&action=index">
+                                        <div data-id="<?php echo $product['id']; ?>" class="add-to-cart">
+                                            <i class="fa fa-cart-plus"></i> Đặt hàng
+                                        </div>
+                                    </a>
+                                </div> -->
                             </div>
                         </div>
                     </div>
