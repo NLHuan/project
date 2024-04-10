@@ -55,7 +55,8 @@ class ProductController extends Controller
         if (isset($_POST['submit'])) {
             $category_id = $_POST['category_id'];
             $title = $_POST['title'];
-            // $price = $_POST['price'];
+            $price = $_POST['price'];
+            $discount = $_POST['discount'];
             // $amount = $_POST['amount'];
             $summary = $_POST['summary'];
             $content = $_POST['content'];
@@ -108,7 +109,8 @@ class ProductController extends Controller
                 $product_model->category_id = $category_id;
                 $product_model->title = $title;
                 $product_model->avatar = $filename;
-                // $product_model->price = $price;
+                $product_model->price = $price;
+                $product_model->discount = $discount;
                 // $product_model->amount = $amount;
                 $product_model->summary = $summary;
                 $product_model->content = $content;

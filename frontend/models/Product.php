@@ -33,7 +33,7 @@ class Product extends Model {
     }
     public function getProduct()
     {
-        $sql_select_all = "SELECT * FROM products WHERE `status` = 1 ORDER BY id DESC LIMIT 3";
+        $sql_select_all = "SELECT * FROM products WHERE `status` = 1 ORDER BY id DESC";
         $obj_select_all = $this->connection->prepare($sql_select_all);
         $obj_select_all->execute();
         $productHome = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);

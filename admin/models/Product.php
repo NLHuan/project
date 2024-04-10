@@ -9,6 +9,7 @@ class Product extends Model
     public $title;
     public $avatar;
     public $price;
+    public $discount;
     public $amount;
     public $summary;
     public $content;
@@ -94,13 +95,14 @@ class Product extends Model
     public function insert()
     {
         $obj_insert = $this->connection
-            ->prepare("INSERT INTO products(category_id, title, avatar, summary, content, status) 
-                                VALUES (:category_id, :title, :avatar, :summary, :content, :status)");
+            ->prepare("INSERT INTO products(category_id, title, avatar, summary, content, price, discount, status) 
+                                VALUES (:category_id, :title, :avatar, :summary, :content, :price, :discount, :status)");
         $arr_insert = [
             ':category_id' => $this->category_id,
             ':title' => $this->title,
             ':avatar' => $this->avatar,
-            // ':price' => $this->price,
+            ':price' => $this->price,
+            ':discount' => $this->discount,
             // ':amount' => $this->amount,
             ':summary' => $this->summary,
             ':content' => $this->content,
