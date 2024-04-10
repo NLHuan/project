@@ -14,7 +14,7 @@
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
                 <h1 class="fw-bold text-dark m-0" style="font-family: 'Arial', sans-serif;">Muscle<span class="text-secondary">Food</span></h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -22,18 +22,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
-                    <a href="about.html" class="nav-item nav-link">Giới thiệu</a>
-                    <a href="product.html" class="nav-item nav-link">Sản phẩm</a>
+                    <a href="index.php" class="nav-item nav-link active">Trang chủ</a>
+                    <a href="index.php?controller=product&action=index" class="nav-item nav-link">Giới thiệu</a>
+                    <a href="index.php?controller=product&action=index" class="nav-item nav-link">Sản phẩm</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trang</a>
                         <div class="dropdown-menu m-0">
-                            <a href="blog.html" class="dropdown-item">Blog</a>
-                            <a href="feature.html" class="dropdown-item">Cam kết chính hãng</a>
-                            <a href="testimonial.html" class="dropdown-item">Phản hồi</a>
+                            <a href="index.php?controller=product&action=index" class="dropdown-item">Blog</a>
+                            <a href="index.php?controller=product&action=index" class="dropdown-item">Cam kết chính hãng</a>
+                            <a href="index.php?controller=product&action=index" class="dropdown-item">Phản hồi</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                    <a href="index.php?controller=product&action=index" class="nav-item nav-link">Liên hệ</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
                     <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
