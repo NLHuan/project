@@ -44,6 +44,7 @@ require_once 'helpers/Helper.php';
             </div>
         </div>
         <div class="tab-content">
+            <form action="" class="add_cart" method="post">
             <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row g-4">
                 <?php
@@ -52,8 +53,6 @@ require_once 'helpers/Helper.php';
                         // print_r($product);
                         // echo '<pre>';
                     ?>
-                            <form action="" class="add_cart" method="post">
-
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
@@ -87,14 +86,13 @@ require_once 'helpers/Helper.php';
                             </div>
                         </div>
                     </div>
-                    </form>
-
                     <?php endforeach; ?>
                     <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
                         <a class="btn btn-primary rounded-pill py-3 px-5" href="">Xem thêm sản phẩm</a>
                     </div>
                 </div>
             </div>
+            </form>
             <div id="tab-2" class="tab-pane fade show p-0">
                 <div class="row g-4">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
